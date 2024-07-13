@@ -18,7 +18,7 @@ span{
 .header{
     background-image: url(../developer.png) url(../header_bg.png);
     background-repeat: no-repeat;
-    background-position: top right left bottom;
+    background-position: top  left bottom;
 }
 nav ul li{
     list-style: none;
@@ -70,4 +70,46 @@ ul{
 }
 .benner-img{
     width: 580px;
+}
+/* font-style */
+.font-style{
+    font-weight: bold;
+    font-size: 35px;
+    color: #181818;
+}
+.font-style2{
+    font-size: 18px;
+    color: #757575;
+
+}
+.secondery-bg{
+    background-color: #fff8f3;
+}
+/* main- */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about-section{
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+.adout-items{
+    display: flex;
+    justify-content: space-around;
+}
+/* skills- */
+.skils{
+    text-align: center;
+    margin-top: 130px;
+}
+/* skils-container */
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.ski{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(00, 00, 00, 0.6 ) ;
 }
